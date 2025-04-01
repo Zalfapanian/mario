@@ -13,20 +13,6 @@ int jouer(SDL_Renderer* renderer) {
 
     while(continuer){ //coeur du jeu ici, les actions seront repété pour faire le déplacement des différentes images, ...
         
-        //gérer les différentes actions. 
-        
-        
-    }
-    
-	//a vous de compléter, au fur et à mesure, les deux fonctions en dessous pour bien faire le nettoyage. 
-    LibererMap(map, sprites);
-    freePersonnage(mario, goomba, nbGoomba);
-
-    return continuer;
-}
-
-    while(continuer){ //coeur du jeu ici, les actions seront repété pour faire le déplacement des différentes images, ...
-        
         struct Personnage
         {
             SDL_Texture **image; //une liste des images (de pointeur sur image pour être précis) quicontiendra l’ensemble des sprites de notre personnages (ici mario).
@@ -54,3 +40,14 @@ int jouer(SDL_Renderer* renderer) {
         
         
     }
+    
+	//a vous de compléter, au fur et à mesure, les deux fonctions en dessous pour bien faire le nettoyage. 
+   //oid LibererMap(map, sprites);
+   //oid freePersonnage(char* mario,char* goomba,int intnbGoomba);
+   //oid deplacement(personnage);
+
+    void freePersonnage(char* mario, char* goomba, int nbGoomba);
+        free;
+
+
+
