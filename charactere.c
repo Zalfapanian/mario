@@ -7,7 +7,7 @@ void freePersonnage(Personnage* mario, Personnage **goomba, int nbGoomba) {
     
 }
 
-void createperso(){
+void createperso(...){
     struct Personnage mario;
     mario.jump = 0;
     mario.jumptime = 0;
